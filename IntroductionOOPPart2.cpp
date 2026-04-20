@@ -27,4 +27,12 @@ int main()
     elektronik.jumlah = 10;
     elektronik.kategori = "Elektronik";
     elektronik.tanggalProduksi = "2023-01-15";
+
+    nonelektronik.nama = "Meja";
+    nonelektronik.jumlah = 5;
+    nonelektronik.kategori = "Non-Elektronik";
+    nonelektronik.tanggalProduksi = "2023-02-20";
+
+    elektronik.tampilkanData();
+    nonelektronik.tampilkanData();
 }
