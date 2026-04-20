@@ -18,3 +18,13 @@ public
         cout << "Tanggal Produksi : " << tanggalProduksi << endl;
     }
 };
+int main()
+{
+    barang elektronik;
+    barang nonelektronik;
+
+    elektronik.nama = "Laptop";
+    elektronik.jumlah = 10;
+    elektronik.kategori = "Elektronik";
+    elektronik.tanggalProduksi = "2023-01-15";
+}
