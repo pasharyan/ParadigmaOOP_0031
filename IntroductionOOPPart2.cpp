@@ -9,4 +9,12 @@ public
     int jumlah;
     string kategori;
     string tanggalProduksi;
-}
+
+    void tampilkanData()
+    {
+        cout << "Nama Barang : " << nama << endl;
+        cout << "Jumlah      : " << Jumlah << endl;
+        cout << "Kategori    : " << Kategori << endl;
+        cout << "Tanggal Produksi : " << tanggalProduksi << endl;
+    }
+};
